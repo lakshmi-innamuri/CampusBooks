@@ -1,0 +1,627 @@
+/**
+ *all styles for CampusBooks
+ *
+ */
+
+body {
+	width: 98%;
+	background-color: #5E2600;
+	margin: 12px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	clear: both;
+	padding: 107px 0px 5px;
+}
+
+aside {
+	float: left;
+	margin: 10px;
+	width: 330px;
+	height: 400px;
+	padding: 2px;
+	font-size: 10px;
+}
+
+section {
+	margin: 10px;
+	width: 1000px;
+}
+
+section ul {
+	padding: 5px 15px 15px 15px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 5px;
+}
+
+table {
+	margin: 11px 0px 0px 15px;
+}
+
+caption {
+	margin: 0px 0px 10px 0px;
+	font-size: 26px;
+}
+
+tr {
+	width: 70%;
+}
+
+td {
+	padding: 3px 5px 5px 0px;
+}
+
+td#submit {
+	padding: 20px 0 0 33px;
+}
+
+li {
+	padding: 3px 3px 5px 0px;
+}
+
+span {
+	padding-left: 30px;
+}
+
+a {
+	font-size: 20px;
+	color: white;
+}
+
+
+a:hover, a:active {
+	color: #CD7F32;
+}
+
+
+
+/*styles for navigation*/
+h1, h2, h3, h4, h5, h6, p, a, ul, li, small {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	width: 20%;
+}
+
+nav ul li a {
+	text-align: center;
+	padding: 8px 0;
+	display: block;
+	width: 100%;
+	background: #b87333; /* Old browsers */
+	background: -moz-linear-gradient(to bottom, #b87333 0%, #5e2612 100%);
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	color: #CD7F32;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	background: #CD7F32; /* Old browsers */
+	background: -moz-linear-gradient(top, #CD7F32 0%, #5e2612 100%);
+}
+
+nav ul li:first-child a {
+	
+}
+
+nav ul li:last-child a {
+	
+}
+select {
+	width: 143px;
+}
+
+ol {
+	padding-top: 10px;
+}
+label {
+	font-weight: bold;
+}
+table.topSeller {
+	width: 300px;
+}
+
+table.topSeller tr {
+	
+}
+
+table.topSeller td {
+	text-align: left;
+}
+
+#errorMsg{
+	color:orangered;
+}
+
+
+
+#feedBackMessage{
+
+    padding-left: 12px;
+    padding-top: 11px;
+}
+#contactedSellersList{
+	float: left;
+    width: 452px;
+}
+
+/** Edit book page**/
+#bookstatus option {
+	width: 116px;
+}
+
+
+#searchForm {
+	font-size: 17px;
+	width: 500px;
+}
+
+#adminHomeSection {
+	margin: 10px;
+	width: 1100px;
+}
+#searchResults a {
+	color: #5e2612;
+}
+
+
+#title {
+	color: white;
+	float: left;
+	margin-left: -50px;
+	position: absolute;
+	top: 51px;
+	width: 400px;
+}
+
+#userActions {
+	float: right;
+	position: absolute;
+	right: 20px;
+	top: 23px;
+}
+
+#nav {
+	padding-left: 40px;
+}
+
+#logout {
+	font-family: helvetica, arial, sans-serif;
+}
+
+#history {
+	margin: 2% 2% 5% 5%;
+}
+
+#sections {
+	float: left;
+	margin: 10px;
+}
+
+#sellerButon {
+	width: 128px;
+	height: 50px;
+	margin-left: 81px;
+	margin-top: 17px;
+}
+
+#sellerButtonSellerProfile {
+	margin: -290px 7px 0 397px;
+}
+
+#allContent {
+	background-color: #df9e5a;
+	height: 511px;
+	color: #5e2612;
+}
+
+#allContent a {
+	color: #5e2612;
+}
+
+#dialogoverlay {
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+
+#dialogbox {
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius: 7px;
+	width: 550px;
+	z-index: 10;
+}
+
+#dialogbox>div {
+	background: #FFF;
+	margin: 8px;
+}
+
+#dialogbox>div>#dialogboxhead {
+	background: #666;
+	font-size: 19px;
+	padding: 10px;
+	color: #CCC;
+}
+
+#dialogbox>div>#dialogboxbody {
+	background: #333;
+	padding: 20px;
+	color: #FFF;
+}
+
+#dialogbox>div>#dialogboxfoot {
+	background: #666;
+	padding: 10px;
+	text-align: right;
+}
+
+#searchCriteria {
+	color: #5e2612;
+}
+
+#searchResults {
+	margin-top: 65px;
+	color: #5e2612;
+	height: 323px;
+	float: left;
+	overflow: auto;
+	overflow-x: hidden;
+	width: 481px;
+}
+
+#sellerProfile {
+	float: left;
+	padding-top: 20px;
+}
+#contactForm{
+    float: left;
+    padding-left: 21%;
+}
+
+
+#scrollDiv {
+	float: left;
+	height: 156px;
+	margin-top: 38px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#adminScrollDiv {
+	float: left;
+	height: 165px;
+	margin-bottom: 41px;
+	margin-right: 28px;
+	margin-top: 4px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-right: 36px;
+	width: 282px;
+}
+
+#historyScrollDiv {
+	float: left;
+	height: 210px;
+	margin-top: 46px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 370px;
+}
+#historySellerScrollDiv {
+	float: left;
+	height: 371px;
+	margin-top: 18px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 541px;
+}
+#emailSent{
+	 margin-left: -400px;
+    padding-top: 36px;
+}
+
+.required label {
+	font-weight: bold;
+}
+.regTitle{
+	text-align: center;
+}
+.errorleftReg{
+    float: left;
+    text-align: center;
+    width: 350px;
+    padding-top: 5px;
+}
+.alignleftReg{
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+    text-align: right;
+    width: 150px;	
+}
+
+
+.mainBodyContent a {
+	color: #5e2612;
+}
+
+.breadcrumb a {
+	font-size: 17px;
+}
+
+.breadcrumb li {
+	display: inline;
+}
+
+.breadcrumb li+li:before {
+	content: "» ";
+}
+
+.mainBodyContent {
+	background-color: #df9e5a;
+	border: 0 solid black;
+	height: 545px;
+	padding-left: 469px;
+	text-align: center;
+	color: #5e2612;
+}
+
+
+.backButton{
+	padding-left: 100%;
+    padding-top: 3%;
+}
+
+
+
+.loginpageAlignment {
+	height: 300px;
+	margin-left: 459px;
+	margin-top: 90px;
+	text-align: center;
+	width: 400px;
+	background-image: url("../images/wood.jpg");
+	color: white;
+}
+
+
+.adminmainBodyContent{
+	background-color: #df9e5a;
+	border: 0 solid black;
+	height: 685px;
+	padding-left: 469px;
+	text-align: center;
+	color: #5e2612;
+}
+
+.bg {
+	background-color: #df9e5a;
+}
+
+
+.headerContent {
+	text-align: center;
+	background-color: #006400;
+	margin-bottom: -10px;
+	background-image: url('../images/wood.jpg');
+	height: 147px;
+}
+
+.required label:after {
+	color: #e32;
+	content: ' *';
+	display: inline;
+}
+
+.registrationPage {
+	text-align: center;
+	width: 300px;
+	height: 500px;
+	margin-left: 0.03%;
+}
+.regWidth{
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	margin-left: 45px;
+}
+.textpadding {
+	padding-bottom: 10px;
+	padding-top: 21px;
+}
+
+.alignleft {
+	float: left;
+	font-weight: bold
+}
+
+.alignright {
+	float: right;
+}
+.alignrightReg {
+	float: left;
+    padding-left: 24px;
+	
+}
+.titlePadding{
+	padding-left: 60px;
+}
+
+
+
+.registrationContent {
+	height: 501px;
+	margin-left: 459px;
+	text-align: center;
+	width: 500px;
+	color: white;
+}
+
+.buttonAlignment {
+	padding-top: 30px;
+}
+
+.updatebuttonAlignment {
+	padding-top: 30px;
+	margin-right: -106px;
+}
+
+/** Update personal Details content **/
+.updatePersonalDetailsContent {
+	border-color: black;
+	border-style: double;
+	height: 477px;
+	margin-left: 459px;
+	text-align: center;
+	width: 479px;
+}
+
+.personalDetailsHeader {
+	width: 339px;
+}
+
+
+
+
+
+/* button styles */
+.button {
+	/*Step 2: Basic Button Styles*/
+	background: #b87333;
+	border: 2px solid #b87333;
+	/*Step 3: Text Styles*/
+	color: white;
+	text-align: center;
+	/*Step 4: Fancy CSS3 Styles*/
+	background: -webkit-linear-gradient(top, #b87333, #5e2612);
+	background: -moz-linear-gradient(top, #b87333, #5e2612);
+	background: -o-linear-gradient(top, #b87333, #5e2612);
+	background: -ms-linear-gradient(top, #b87333, #5e2612);
+	background: linear-gradient(top, #b87333, #5e2612);
+	-webkit-box-shadow: 0 8px 0 #b87333;
+	-moz-box-shadow: 0 8px 0 #b87333;
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+	-webkit-box-shadow: 0 8px 0 #b87333;
+}
+
+/*Step 3: Link Styles*/
+.button {
+	text-decoration: none;
+}
+
+/*Step 5: Hover Styles*/
+.button:hover {
+	color: #CD7F32;
+	background: #3d7a80;
+	background: -webkit-linear-gradient(top, #b87333, #5e2612);
+	background: -moz-linear-gradient(top, #b87333, #5e2612);
+	background: -o-linear-gradient(top, #b87333, #5e2612);
+	background: -ms-linear-gradient(top, #b87333, #5e2612);
+	background: linear-gradient(top, #b87333, #5e2612);
+}
+
+.bookImg {
+	height: 100px;
+	left: 320px;
+	position: absolute;
+	top: 15px;
+	width: 196px;
+}
+
+.frontPage {
+	background-image: url("../images/wood.jpg");
+}
+
+
+.error {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+
+.topSpacing {
+	padding-top: 10px;
+}
+
+.search {
+	margin-top: 62px;
+}
+
+
+.sellerTable {
+	padding-top: 20px;
+}
+
+.viewbook {
+	width: 394px;
+}
+
+.registrationCompleteAlignment {
+	height: 300px;
+	margin-left: 459px;
+	margin-top: 90px;
+	text-align: center;
+	width: 576px;
+	background-image: url("../images/wood.jpg");
+	color: white;
+}
+.messageFormat {
+	background-color: #df9e5a;
+	border: 0 solid black;
+	height: 511px;
+	padding-left: 469px;
+	text-align: center;
+	color: #5e2612;
+}
+
+.sectionContents{
+	 padding-top: 0px;
+	width:600px;
+}
+
+.fullRatingDiv {
+	height: 20px;
+	padding: 0;
+	background: url("../images/fullstar.png" ") repeat-x;
+}
+
